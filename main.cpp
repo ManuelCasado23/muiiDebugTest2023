@@ -35,7 +35,7 @@ int main() {
          timer.elapsed_time().count());
 
   estructuraMedidas medidas;
-  medidas.energiaConsumida = 0;
+  medidas.energiaConsumida = 0; //hola
 
   timer.reset();
   timer.start();
