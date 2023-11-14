@@ -25,9 +25,9 @@ float calcularRMS(uint16_t *datos, int longitud);
 void calcularDatos(uint16_t *datosV, uint16_t *datosI, int longitud,
                    estructuraMedidas *medidas);
 
-int main() {
+int main() { // SIdgdggd
 
-  timer.reset();
+  timer.reset(); 
   timer.start();
   resultado = calcularRMS(datos, longitudTrama);
   timer.stop();
